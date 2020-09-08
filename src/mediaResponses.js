@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const { dir } = require('console');
 
 const loadFile = (request, response,contentType,fileDir) => {
   const file = path.resolve(__dirname, fileDir);
